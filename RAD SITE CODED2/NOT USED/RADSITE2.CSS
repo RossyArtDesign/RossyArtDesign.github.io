@@ -1,0 +1,194 @@
+.w3-button {
+    
+    position: fixed;
+    
+    
+    
+}
+img.myslides {
+    
+    height: 400;
+    width: 600;
+    margin-left:160px;
+    margin-right: 200px;
+  
+  
+  
+    
+}
+
+
+
+
+
+
+
+body {
+    
+    background-color: #DCDCDC;
+    background-image: ;uprl(fin%20on%20rainbow%20rug.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.r {
+    
+    
+}
+
+.a {
+    
+    
+}
+
+.d {
+    
+    
+    
+}
+svg {
+    height:70px;
+    padding-top: 20px;
+    padding-left: 95px;
+    margin-bottom: -90px;
+    
+}
+.inner {
+  position:inherit;
+}
+
+text1{
+    
+}
+
+.about {
+    width: 20.0%;
+    color:006EB3;
+    padding-left: 10px;
+    margin-left: 100px;
+    padding-top:10px;
+    height: 600px;
+    background-color:#DCDCDC;
+    position: ;
+    display:inline-table;
+    border: 20px;
+    border-color: darkred;
+     border-style: solid;
+    border-width: 20px;
+    border-color:#006EB3;
+    
+}
+
+.about:hover {
+    
+    background-color: 
+}
+.rec {
+    color:white; 
+ 
+   min-width:98%;
+    font-size: 40px;
+    float:right;
+    height: 90%;
+    position: fixed;
+    max-height: 600px;
+    background-color:#DCDCDC;
+   
+    
+    
+}
+
+.portfolio {
+    width:auto;
+    margin-bottom: ;
+       font-family: arial;
+    font-size:40px;
+    margin-right: 0px ;
+    color:#EDA715;
+    height: 95%;
+    position: relative;
+    max-height: 600px;
+    background-color:#DCDCDC;
+    border-style: solid;
+    border-width: 20px;
+    border-color:#EDA715;
+    overflow:hidden;
+}
+
+.contact {
+    width: 20.0%;
+       font-family: arial;
+    margin-left: 100px;
+    padding-left:10px;
+    height: 600px;
+    background-color:#DCDCDC;
+    display: inline-table;
+    padding-top:10px;
+    border-style: solid;
+    border-width: 20px;
+    border-color:#C42C2A;
+    color:#C42C2A;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one. Show the link that contains should open and close the topnav (.icon) */
+
+@media screen and (max-width: 1000px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+@media screen and (max-width: 1000px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 700;
+        visibility: hidden;
+    }
+    to {
+        stroke-dashoffset: 0;
+        visibility: visible;
+    }
+}
+
+@keyframes fill2 {
+    from {
+        fill: none;
+    }
+    to {
+        fill: white;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
